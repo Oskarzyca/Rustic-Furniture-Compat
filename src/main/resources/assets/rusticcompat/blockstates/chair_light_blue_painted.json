@@ -1,0 +1,8 @@
+{
+        "variants": {
+            "facing=north":	{ "model": "rusticcompat:chair_light_blue_painted" },
+            "facing=east":	{ "model": "rusticcompat:chair_light_blue_painted", "y": 90},
+            "facing=south":	{ "model": "rusticcompat:chair_light_blue_painted", "y": 180 },
+            "facing=west":	{ "model": "rusticcompat:chair_light_blue_painted", "y": 270 }
+        }
+    }

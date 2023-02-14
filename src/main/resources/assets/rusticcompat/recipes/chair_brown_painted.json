@@ -1,0 +1,19 @@
+{ "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "P  ",
+      "PPP",
+      "S S"
+    ],
+    "key": {
+      "P": {
+        "item": "rustic:painted_wood_brown"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "rusticcompat:chair_brown_painted",
+      "count": 4
+    }
+  }

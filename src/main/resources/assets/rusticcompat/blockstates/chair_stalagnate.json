@@ -1,0 +1,8 @@
+{
+        "variants": {
+            "facing=north":	{ "model": "rusticcompat:chair_stalagnate" },
+            "facing=east":	{ "model": "rusticcompat:chair_stalagnate", "y": 90},
+            "facing=south":	{ "model": "rusticcompat:chair_stalagnate", "y": 180 },
+            "facing=west":	{ "model": "rusticcompat:chair_stalagnate", "y": 270 }
+        }
+    }

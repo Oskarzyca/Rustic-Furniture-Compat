@@ -1,0 +1,19 @@
+{ "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "P  ",
+      "PPP",
+      "S S"
+    ],
+    "key": {
+      "P": {
+        "item": "defiledlands:planks_tenebra"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "rusticcompat:chair_tenebra",
+      "count": 4
+    }
+  }

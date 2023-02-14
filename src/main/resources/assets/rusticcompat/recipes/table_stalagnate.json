@@ -1,0 +1,19 @@
+{
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PPP",
+          "S S"
+        ],
+        "key": {
+          "P": {
+            "item": "betternether:stalagnate_planks"
+          },
+          "S": {
+            "item": "minecraft:stick"
+          }
+        },
+        "result": {
+          "item": "rusticcompat:table_stalagnate",
+          "count": 2
+        }
+      }

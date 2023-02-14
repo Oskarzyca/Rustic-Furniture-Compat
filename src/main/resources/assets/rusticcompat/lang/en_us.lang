@@ -1,0 +1,48 @@
+#Painted Wood Blocks
+tile.rustic.chair_red_painted.name=Painted Red Chair
+tile.rustic.chair_blue_painted.name=Painted Blue Chair
+tile.rustic.chair_yellow_painted.name=Painted Yellow Chair
+tile.rustic.chair_green_painted.name=Painted Green Chair
+tile.rustic.chair_orange_painted.name=Painted Orange Chair
+tile.rustic.chair_black_painted.name=Painted Black Chair
+tile.rustic.chair_white_painted.name=Painted White Chair
+tile.rustic.chair_gray_painted.name=Painted Gray Chair
+tile.rustic.chair_brown_painted.name=Painted Brown Chair
+tile.rustic.chair_purple_painted.name=Painted Purple Chair
+tile.rustic.chair_pink_painted.name=Painted Pink Chair
+tile.rustic.chair_cyan_painted.name=Painted Cyan Chair
+tile.rustic.chair_magenta_painted.name=Painted Magenta Chair
+tile.rustic.chair_lime_painted.name=Painted Lime Chair
+tile.rustic.chair_silver_painted.name=Painted Silver Chair
+tile.rustic.chair_light_blue_painted.name=Painted Light Blue Chair
+
+tile.rustic.table_red_painted.name=Painted Red Table
+tile.rustic.table_blue_painted.name=Painted Blue Table
+tile.rustic.table_yellow_painted.name=Painted Yellow Table
+tile.rustic.table_green_painted.name=Painted Green Table
+tile.rustic.table_orange_painted.name=Painted Orange Table
+tile.rustic.table_black_painted.name=Painted Black Table
+tile.rustic.table_white_painted.name=Painted White Table
+tile.rustic.table_gray_painted.name=Painted Gray Table
+tile.rustic.table_brown_painted.name=Painted Brown Table
+tile.rustic.table_purple_painted.name=Painted Purple Table
+tile.rustic.table_pink_painted.name=Painted Pink Table
+tile.rustic.table_cyan_painted.name=Painted Cyan Table
+tile.rustic.table_magenta_painted.name=Painted Magenta Table
+tile.rustic.table_lime_painted.name=Painted Lime Table
+tile.rustic.table_silver_painted.name=Painted Silver Table
+tile.rustic.table_light_blue_painted.name=Painted Light Blue Table
+
+#Traverse
+tile.rustic.chair_fir.name=Fir Chair
+tile.rustic.table_fir.name=Fir Table
+
+#Defiled Lands
+tile.rustic.chair_tenebra.name=Tenebra Chair
+tile.rustic.table_tenebra.name=Tenebra Table
+
+#Better Nether
+tile.rustic.chair_stalagnate.name=Stalagnate Chair
+tile.rustic.chair_reed.name=Reed Chair
+tile.rustic.table_stalagnate.name=Stalagnate Table
+tile.rustic.table_reed.name=Reed Table

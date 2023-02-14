@@ -1,0 +1,19 @@
+{
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PPP",
+          "S S"
+        ],
+        "key": {
+          "P": {
+            "item": "rustic:painted_wood_light_blue"
+          },
+          "S": {
+            "item": "minecraft:stick"
+          }
+        },
+        "result": {
+          "item": "rusticcompat:table_light_blue_painted",
+          "count": 2
+        }
+      }

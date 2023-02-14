@@ -1,0 +1,8 @@
+{
+        "variants": {
+            "facing=north":	{ "model": "rusticcompat:chair_tenebra" },
+            "facing=east":	{ "model": "rusticcompat:chair_tenebra", "y": 90},
+            "facing=south":	{ "model": "rusticcompat:chair_tenebra", "y": 180 },
+            "facing=west":	{ "model": "rusticcompat:chair_tenebra", "y": 270 }
+        }
+    }

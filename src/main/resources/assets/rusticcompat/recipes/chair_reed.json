@@ -1,0 +1,19 @@
+{ "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "P  ",
+      "PPP",
+      "S S"
+    ],
+    "key": {
+      "P": {
+        "item": "betternether:reeds_block"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "rusticcompat:chair_reed",
+      "count": 4
+    }
+  }

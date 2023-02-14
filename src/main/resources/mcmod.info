@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rusticcompat",
+  "name": "Rustic Furniture Compat",
+  "description": "Adds tables and chairs made out of painted wood and mod compat as well!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Oskarzyca"],
+  "credits": "Oskarzyca",
+  "logoFile": "rusticcompat.png",
+  "screenshots": [],
+  "dependencies": ["rustic"]
+}
+]

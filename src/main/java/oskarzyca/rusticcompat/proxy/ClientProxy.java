@@ -18,5 +18,8 @@ public class ClientProxy extends CommonProxy {
         if (Loader.isModLoaded("betternether")){
             ModBlocks.betnetInitModels();
         }
+        if (Loader.isModLoaded("quark")){
+            ModBlocks.quarkInitModels();
+        }
     }
 }

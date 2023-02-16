@@ -21,6 +21,9 @@ public class CommonProxy {
         if (Loader.isModLoaded("betternether")){
             ModBlocks.betnetInit();
         }
+        if (Loader.isModLoaded("quark")){
+            ModBlocks.quarkInit();
+        }
     }
 
     public void init(FMLInitializationEvent event) {

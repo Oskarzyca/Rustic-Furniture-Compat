@@ -13,7 +13,7 @@ tile.rustic.chair_pink_painted.name=Painted Pink Chair
 tile.rustic.chair_cyan_painted.name=Painted Cyan Chair
 tile.rustic.chair_magenta_painted.name=Painted Magenta Chair
 tile.rustic.chair_lime_painted.name=Painted Lime Chair
-tile.rustic.chair_silver_painted.name=Painted Silver Chair
+tile.rustic.chair_silver_painted.name=Painted Light Gray Chair
 tile.rustic.chair_light_blue_painted.name=Painted Light Blue Chair
 
 tile.rustic.table_red_painted.name=Painted Red Table
@@ -30,7 +30,7 @@ tile.rustic.table_pink_painted.name=Painted Pink Table
 tile.rustic.table_cyan_painted.name=Painted Cyan Table
 tile.rustic.table_magenta_painted.name=Painted Magenta Table
 tile.rustic.table_lime_painted.name=Painted Lime Table
-tile.rustic.table_silver_painted.name=Painted Silver Table
+tile.rustic.table_silver_painted.name=Painted Light Gray Table
 tile.rustic.table_light_blue_painted.name=Painted Light Blue Table
 
 #Traverse
@@ -46,3 +46,38 @@ tile.rustic.chair_stalagnate.name=Stalagnate Chair
 tile.rustic.chair_reed.name=Reed Chair
 tile.rustic.table_stalagnate.name=Stalagnate Table
 tile.rustic.table_reed.name=Reed Table
+
+#Quark
+tile.rustic.chair_red_stained.name=Stained Red Chair
+tile.rustic.chair_blue_stained.name=Stained Blue Chair
+tile.rustic.chair_yellow_stained.name=Stained Yellow Chair
+tile.rustic.chair_green_stained.name=Stained Green Chair
+tile.rustic.chair_orange_stained.name=Stained Orange Chair
+tile.rustic.chair_black_stained.name=Stained Black Chair
+tile.rustic.chair_white_stained.name=Stained White Chair
+tile.rustic.chair_gray_stained.name=Stained Gray Chair
+tile.rustic.chair_brown_stained.name=Stained Brown Chair
+tile.rustic.chair_purple_stained.name=Stained Purple Chair
+tile.rustic.chair_pink_stained.name=Stained Pink Chair
+tile.rustic.chair_cyan_stained.name=Stained Cyan Chair
+tile.rustic.chair_magenta_stained.name=Stained Magenta Chair
+tile.rustic.chair_lime_stained.name=Stained Lime Chair
+tile.rustic.chair_light_gray_stained.name=Stained Light Gray Chair
+tile.rustic.chair_light_blue_stained.name=Stained Light Blue Chair
+
+tile.rustic.table_red_stained.name=Stained Red Table
+tile.rustic.table_blue_stained.name=Stained Blue Table
+tile.rustic.table_yellow_stained.name=Stained Yellow Table
+tile.rustic.table_green_stained.name=Stained Green Table
+tile.rustic.table_orange_stained.name=Stained Orange Table
+tile.rustic.table_black_stained.name=Stained Black Table
+tile.rustic.table_white_stained.name=Stained White Table
+tile.rustic.table_gray_stained.name=Stained Gray Table
+tile.rustic.table_brown_stained.name=Stained Brown Table
+tile.rustic.table_purple_stained.name=Stained Purple Table
+tile.rustic.table_pink_stained.name=Stained Pink Table
+tile.rustic.table_cyan_stained.name=Stained Cyan Table
+tile.rustic.table_magenta_stained.name=Stained Magenta Table
+tile.rustic.table_lime_stained.name=Stained Lime Table
+tile.rustic.table_light_gray_stained.name=Stained Light Gray Table
+tile.rustic.table_light_blue_stained.name=Stained Light Blue Table

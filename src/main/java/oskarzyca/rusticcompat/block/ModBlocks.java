@@ -56,6 +56,41 @@ public class ModBlocks {
     public static BlockTable TABLE_STALAGNATE;
     public static BlockTable TABLE_REED;
 
+    // Quark
+    public static BlockChair CHAIR_RED_STAINED;
+    public static BlockChair CHAIR_BLUE_STAINED;
+    public static BlockChair CHAIR_YELLOW_STAINED;
+    public static BlockChair CHAIR_ORANGE_STAINED;
+    public static BlockChair CHAIR_GREEN_STAINED;
+    public static BlockChair CHAIR_PINK_STAINED;
+    public static BlockChair CHAIR_BLACK_STAINED;
+    public static BlockChair CHAIR_WHITE_STAINED;
+    public static BlockChair CHAIR_BROWN_STAINED;
+    public static BlockChair CHAIR_GRAY_STAINED;
+    public static BlockChair CHAIR_LIME_STAINED;
+    public static BlockChair CHAIR_MAGENTA_STAINED;
+    public static BlockChair CHAIR_PURPLE_STAINED;
+    public static BlockChair CHAIR_CYAN_STAINED;
+    public static BlockChair CHAIR_LIGHT_GRAY_STAINED;
+    public static BlockChair CHAIR_LIGHT_BLUE_STAINED;
+
+    public static BlockTable TABLE_RED_STAINED;
+    public static BlockTable TABLE_BLUE_STAINED;
+    public static BlockTable TABLE_YELLOW_STAINED;
+    public static BlockTable TABLE_ORANGE_STAINED;
+    public static BlockTable TABLE_GREEN_STAINED;
+    public static BlockTable TABLE_PINK_STAINED;
+    public static BlockTable TABLE_BLACK_STAINED;
+    public static BlockTable TABLE_WHITE_STAINED;
+    public static BlockTable TABLE_BROWN_STAINED;
+    public static BlockTable TABLE_GRAY_STAINED;
+    public static BlockTable TABLE_LIME_STAINED;
+    public static BlockTable TABLE_MAGENTA_STAINED;
+    public static BlockTable TABLE_PURPLE_STAINED;
+    public static BlockTable TABLE_CYAN_STAINED;
+    public static BlockTable TABLE_LIGHT_GRAY_STAINED;
+    public static BlockTable TABLE_LIGHT_BLUE_STAINED;
+
     public static void init() {
         if (Config.ENABLE_PAINTED_WOOD) {
             if (Config.ENABLE_CHAIRS) {
@@ -123,7 +158,44 @@ public class ModBlocks {
             TABLE_REED = new BlockTable("reed");
         }
     }
-
+    public static void quarkInit(){
+        if (Config.ENABLE_CHAIRS) {
+            CHAIR_RED_STAINED = new BlockChair("red_stained");
+            CHAIR_BLUE_STAINED = new BlockChair("blue_stained");
+            CHAIR_YELLOW_STAINED = new BlockChair("yellow_stained");
+            CHAIR_ORANGE_STAINED = new BlockChair("orange_stained");
+            CHAIR_PINK_STAINED = new BlockChair("pink_stained");
+            CHAIR_GREEN_STAINED = new BlockChair("green_stained");
+            CHAIR_BLACK_STAINED = new BlockChair("black_stained");
+            CHAIR_WHITE_STAINED = new BlockChair("white_stained");
+            CHAIR_BROWN_STAINED = new BlockChair("brown_stained");
+            CHAIR_GRAY_STAINED = new BlockChair("gray_stained");
+            CHAIR_LIME_STAINED = new BlockChair("lime_stained");
+            CHAIR_MAGENTA_STAINED = new BlockChair("magenta_stained");
+            CHAIR_PURPLE_STAINED = new BlockChair("purple_stained");
+            CHAIR_CYAN_STAINED = new BlockChair("cyan_stained");
+            CHAIR_LIGHT_GRAY_STAINED = new BlockChair("light_gray_stained");
+            CHAIR_LIGHT_BLUE_STAINED = new BlockChair("light_blue_stained");
+        }
+        if (Config.ENABLE_TABLES) {
+            TABLE_RED_STAINED = new BlockTable("red_stained");
+            TABLE_BLUE_STAINED = new BlockTable("blue_stained");
+            TABLE_YELLOW_STAINED = new BlockTable("yellow_stained");
+            TABLE_ORANGE_STAINED = new BlockTable("orange_stained");
+            TABLE_PINK_STAINED = new BlockTable("pink_stained");
+            TABLE_GREEN_STAINED = new BlockTable("green_stained");
+            TABLE_BLACK_STAINED = new BlockTable("black_stained");
+            TABLE_WHITE_STAINED = new BlockTable("white_stained");
+            TABLE_BROWN_STAINED = new BlockTable("brown_stained");
+            TABLE_GRAY_STAINED = new BlockTable("gray_stained");
+            TABLE_LIME_STAINED = new BlockTable("lime_stained");
+            TABLE_MAGENTA_STAINED = new BlockTable("magenta_stained");
+            TABLE_PURPLE_STAINED = new BlockTable("purple_stained");
+            TABLE_CYAN_STAINED = new BlockTable("cyan_stained");
+            TABLE_LIGHT_GRAY_STAINED = new BlockTable("light_gray_stained");
+            TABLE_LIGHT_BLUE_STAINED = new BlockTable("light_blue_stained");
+        }
+    }
     @SideOnly(Side.CLIENT)
     public static void initModels() {
             if(Config.ENABLE_PAINTED_WOOD){
@@ -194,6 +266,46 @@ public class ModBlocks {
             TABLE_STALAGNATE.initModel();
             TABLE_REED.initModel();
         }
+    }
+    @SideOnly(Side.CLIENT)
+    public static void quarkInitModels(){
+        if (Config.ENABLE_CHAIRS) {
+            CHAIR_RED_STAINED.initModel();
+            CHAIR_BLUE_STAINED.initModel();
+            CHAIR_YELLOW_STAINED.initModel();
+            CHAIR_ORANGE_STAINED.initModel();
+            CHAIR_PINK_STAINED.initModel();
+            CHAIR_GREEN_STAINED.initModel();
+            CHAIR_BLACK_STAINED.initModel();
+            CHAIR_WHITE_STAINED.initModel();
+            CHAIR_BROWN_STAINED.initModel();
+            CHAIR_GRAY_STAINED.initModel();
+            CHAIR_LIME_STAINED.initModel();
+            CHAIR_MAGENTA_STAINED.initModel();
+            CHAIR_PURPLE_STAINED.initModel();
+            CHAIR_CYAN_STAINED.initModel();
+            CHAIR_LIGHT_GRAY_STAINED.initModel();
+            CHAIR_LIGHT_BLUE_STAINED.initModel();
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_RED_STAINED.initModel();
+            TABLE_BLUE_STAINED.initModel();
+            TABLE_YELLOW_STAINED.initModel();
+            TABLE_ORANGE_STAINED.initModel();
+            TABLE_PINK_STAINED.initModel();
+            TABLE_GREEN_STAINED.initModel();
+            TABLE_BLACK_STAINED.initModel();
+            TABLE_WHITE_STAINED.initModel();
+            TABLE_BROWN_STAINED.initModel();
+            TABLE_GRAY_STAINED.initModel();
+            TABLE_LIME_STAINED.initModel();
+            TABLE_MAGENTA_STAINED.initModel();
+            TABLE_PURPLE_STAINED.initModel();
+            TABLE_CYAN_STAINED.initModel();
+            TABLE_LIGHT_GRAY_STAINED.initModel();
+            TABLE_LIGHT_BLUE_STAINED.initModel();
+        }
+
     }
 
 }

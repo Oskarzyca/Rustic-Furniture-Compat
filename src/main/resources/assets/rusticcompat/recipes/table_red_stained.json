@@ -1,0 +1,20 @@
+{
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PPP",
+          "S S"
+        ],
+        "key": {
+          "P": {
+            "item": "quark:stained_planks",
+            "data": 14
+          },
+          "S": {
+            "item": "minecraft:stick"
+          }
+        },
+        "result": {
+          "item": "rusticcompat:table_red_stained",
+          "count": 2
+        }
+      }

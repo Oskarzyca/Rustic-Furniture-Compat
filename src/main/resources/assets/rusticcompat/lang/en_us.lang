@@ -81,3 +81,20 @@ tile.rustic.table_magenta_stained.name=Stained Magenta Table
 tile.rustic.table_lime_stained.name=Stained Lime Table
 tile.rustic.table_light_gray_stained.name=Stained Light Gray Table
 tile.rustic.table_light_blue_stained.name=Stained Light Blue Table
+
+#Twilight Forest
+tile.rustic.chair_twilight_oak.name=Twilight Oak Chair
+tile.rustic.chair_canopy.name=Canopy Chair
+tile.rustic.chair_darkwood.name=Darkwood Chair
+tile.rustic.chair_mangrove.name=Mangrove Chair
+tile.rustic.chair_transwood.name=Transwood Chair
+tile.rustic.chair_sortingwood.name=Sortingwood Chair
+tile.rustic.chair_Minewood.name=Minewood Chair
+
+tile.rustic.table_twilight_oak.name=Twilight Oak Table
+tile.rustic.table_canopy.name=Canopy Table
+tile.rustic.table_darkwood.name=Darkwood Table
+tile.rustic.table_mangrove.name=Mangrove Table
+tile.rustic.table_transwood.name=Transwood Table
+tile.rustic.table_sortingwood.name=Sortingwood Table
+tile.rustic.table_Minewood.name=Minewood Table

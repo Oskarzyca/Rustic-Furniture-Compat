@@ -21,5 +21,8 @@ public class ClientProxy extends CommonProxy {
         if (Loader.isModLoaded("quark")){
             ModBlocks.quarkInitModels();
         }
+        if (Loader.isModLoaded("twilightforest")){
+            ModBlocks.twilightInitModels();
+        }
     }
 }

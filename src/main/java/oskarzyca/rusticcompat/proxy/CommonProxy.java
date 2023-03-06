@@ -24,6 +24,9 @@ public class CommonProxy {
         if (Loader.isModLoaded("quark")){
             ModBlocks.quarkInit();
         }
+        if (Loader.isModLoaded("twilightforest")){
+            ModBlocks.twilightInit();
+        }
     }
 
     public void init(FMLInitializationEvent event) {

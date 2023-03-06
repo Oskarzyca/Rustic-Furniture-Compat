@@ -91,6 +91,23 @@ public class ModBlocks {
     public static BlockTable TABLE_LIGHT_GRAY_STAINED;
     public static BlockTable TABLE_LIGHT_BLUE_STAINED;
 
+    // Twilight Forest
+    public static BlockChair CHAIR_TWILIGHT_OAK;
+    public static BlockChair CHAIR_CANOPY;
+    public static BlockChair CHAIR_DARKWOOD;
+    public static BlockChair CHAIR_MANGROVE;
+    public static BlockChair CHAIR_TRANSWOOD;
+    public static BlockChair CHAIR_SORTINGWOOD;
+    public static BlockChair CHAIR_MINEWOOD;
+
+    public static BlockTable TABLE_TWILIGHT_OAK;
+    public static BlockTable TABLE_CANOPY;
+    public static BlockTable TABLE_DARKWOOD;
+    public static BlockTable TABLE_MANGROVE;
+    public static BlockTable TABLE_TRANSWOOD;
+    public static BlockTable TABLE_SORTINGWOOD;
+    public static BlockTable TABLE_MINEWOOD;
+
     public static void init() {
         if (Config.ENABLE_PAINTED_WOOD) {
             if (Config.ENABLE_CHAIRS) {
@@ -194,6 +211,26 @@ public class ModBlocks {
             TABLE_CYAN_STAINED = new BlockTable("cyan_stained");
             TABLE_LIGHT_GRAY_STAINED = new BlockTable("light_gray_stained");
             TABLE_LIGHT_BLUE_STAINED = new BlockTable("light_blue_stained");
+        }
+    }
+    public static void twilightInit(){
+        if (Config.ENABLE_CHAIRS){
+            CHAIR_TWILIGHT_OAK = new BlockChair("twilight_oak");
+            CHAIR_CANOPY = new BlockChair("canopy");
+            CHAIR_DARKWOOD = new BlockChair("darkwood");
+            CHAIR_MANGROVE = new BlockChair("mangrove");
+            CHAIR_TRANSWOOD = new BlockChair("transwood");
+            CHAIR_SORTINGWOOD = new BlockChair("sortingwood");
+            CHAIR_MINEWOOD = new BlockChair("minewood");
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_TWILIGHT_OAK = new BlockTable("twilight_oak");
+            TABLE_CANOPY = new BlockTable("canopy");
+            TABLE_DARKWOOD = new BlockTable("darkwood");
+            TABLE_MANGROVE = new BlockTable("mangrove");
+            TABLE_TRANSWOOD = new BlockTable("transwood");
+            TABLE_SORTINGWOOD = new BlockTable("sortingwood");
+            TABLE_MINEWOOD = new BlockTable("minewood");
         }
     }
     @SideOnly(Side.CLIENT)
@@ -306,6 +343,26 @@ public class ModBlocks {
             TABLE_LIGHT_BLUE_STAINED.initModel();
         }
 
+    }
+    public static void twilightInitModels(){
+        if (Config.ENABLE_CHAIRS){
+            CHAIR_TWILIGHT_OAK.initModel();
+            CHAIR_CANOPY.initModel();
+            CHAIR_DARKWOOD.initModel();
+            CHAIR_MANGROVE.initModel();
+            CHAIR_TRANSWOOD.initModel();
+            CHAIR_SORTINGWOOD.initModel();
+            CHAIR_MINEWOOD.initModel();
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_TWILIGHT_OAK.initModel();
+            TABLE_CANOPY.initModel();
+            TABLE_DARKWOOD.initModel();
+            TABLE_MANGROVE.initModel();
+            TABLE_TRANSWOOD.initModel();
+            TABLE_SORTINGWOOD.initModel();
+            TABLE_MINEWOOD.initModel();
+        }
     }
 
 }

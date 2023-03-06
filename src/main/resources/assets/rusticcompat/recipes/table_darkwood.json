@@ -1,0 +1,19 @@
+{
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PPP",
+          "S S"
+        ],
+        "key": {
+          "P": {
+            "item": "twilightforest:dark_planks"
+          },
+          "S": {
+            "item": "minecraft:stick"
+          }
+        },
+        "result": {
+          "item": "rusticcompat:table_darkwood",
+          "count": 2
+        }
+      }

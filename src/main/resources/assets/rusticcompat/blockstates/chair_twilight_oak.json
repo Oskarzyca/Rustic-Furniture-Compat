@@ -1,0 +1,8 @@
+{
+        "variants": {
+            "facing=north":	{ "model": "rusticcompat:chair_twilight_oak" },
+            "facing=east":	{ "model": "rusticcompat:chair_twilight_oak", "y": 90},
+            "facing=south":	{ "model": "rusticcompat:chair_twilight_oak", "y": 180 },
+            "facing=west":	{ "model": "rusticcompat:chair_twilight_oak", "y": 270 }
+        }
+    }

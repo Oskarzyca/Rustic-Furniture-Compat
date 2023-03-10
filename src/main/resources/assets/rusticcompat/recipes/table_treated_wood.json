@@ -1,0 +1,21 @@
+{
+        "type": "forge:ore_shaped",
+        "pattern": [
+          "PPP",
+          "S S"
+        ],
+        "key": {
+          "P": {
+            "type": "forge:ore_dict",
+			"ore": "plankTreatedWood"
+          },
+          "S": {
+            "item": "immersiveengineering:material",
+			"data": 0
+          }
+        },
+        "result": {
+          "item": "rusticcompat:table_treated_wood",
+          "count": 2
+        }
+}

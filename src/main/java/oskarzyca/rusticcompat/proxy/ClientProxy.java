@@ -24,5 +24,11 @@ public class ClientProxy extends CommonProxy {
         if (Loader.isModLoaded("twilightforest")){
             ModBlocks.twilightInitModels();
         }
+        if (Loader.isModLoaded("immersiveengineering")){
+            ModBlocks.immersiveInitModels();
+        }
+        if (Loader.isModLoaded("comfycozy")){
+            ModBlocks.cozyInitModels();
+        }
     }
 }

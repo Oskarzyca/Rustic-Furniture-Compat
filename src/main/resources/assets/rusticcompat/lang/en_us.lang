@@ -98,3 +98,11 @@ tile.rustic.table_mangrove.name=Mangrove Table
 tile.rustic.table_transwood.name=Transwood Table
 tile.rustic.table_sortingwood.name=Sortingwood Table
 tile.rustic.table_Minewood.name=Minewood Table
+
+#Immersive Engineering
+tile.rustic.chair_treated_wood.name=Treated Wood Chair
+tile.rustic.table_treated_wood.name=Treated Wood Table
+
+#Comfy Cozy
+tile.rustic.chair_peach.name=Peach Chair
+tile.rustic.table_peach.name=Peach Table

@@ -108,6 +108,13 @@ public class ModBlocks {
     public static BlockTable TABLE_SORTINGWOOD;
     public static BlockTable TABLE_MINEWOOD;
 
+    // Immersive Engineering
+    public static BlockChair CHAIR_TREATED_WOOD;
+    public static BlockTable TABLE_TREATED_WOOD;
+    // Comfy Cozy
+    public static BlockChair CHAIR_PEACH;
+    public static BlockTable TABLE_PEACH;
+
     public static void init() {
         if (Config.ENABLE_PAINTED_WOOD) {
             if (Config.ENABLE_CHAIRS) {
@@ -233,6 +240,22 @@ public class ModBlocks {
             TABLE_MINEWOOD = new BlockTable("minewood");
         }
     }
+    public static void immersiveInit(){
+        if (Config.ENABLE_CHAIRS){
+            CHAIR_TREATED_WOOD = new BlockChair("treated_wood");
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_TREATED_WOOD = new BlockTable("treated_wood");
+        }
+    }
+    public static void cozyInit(){
+        if (Config.ENABLE_CHAIRS){
+            CHAIR_PEACH = new BlockChair("peach");
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_PEACH = new BlockTable("peach");
+        }
+    }
     @SideOnly(Side.CLIENT)
     public static void initModels() {
             if(Config.ENABLE_PAINTED_WOOD){
@@ -344,6 +367,7 @@ public class ModBlocks {
         }
 
     }
+    @SideOnly(Side.CLIENT)
     public static void twilightInitModels(){
         if (Config.ENABLE_CHAIRS){
             CHAIR_TWILIGHT_OAK.initModel();
@@ -362,6 +386,24 @@ public class ModBlocks {
             TABLE_TRANSWOOD.initModel();
             TABLE_SORTINGWOOD.initModel();
             TABLE_MINEWOOD.initModel();
+        }
+    }
+    @SideOnly(Side.CLIENT)
+    public static void immersiveInitModels(){
+        if (Config.ENABLE_CHAIRS){
+            CHAIR_TREATED_WOOD.initModel();
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_TREATED_WOOD.initModel();
+        }
+    }
+    @SideOnly(Side.CLIENT)
+    public static void cozyInitModels(){
+        if (Config.ENABLE_CHAIRS){
+            CHAIR_PEACH.initModel();
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_PEACH.initModel();
         }
     }
 

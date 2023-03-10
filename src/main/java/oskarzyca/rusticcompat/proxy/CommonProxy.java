@@ -27,6 +27,12 @@ public class CommonProxy {
         if (Loader.isModLoaded("twilightforest")){
             ModBlocks.twilightInit();
         }
+        if (Loader.isModLoaded("immersiveengineering")){
+            ModBlocks.immersiveInit();
+        }
+        if (Loader.isModLoaded("comfycozy")){
+            ModBlocks.cozyInit();
+        }
     }
 
     public void init(FMLInitializationEvent event) {

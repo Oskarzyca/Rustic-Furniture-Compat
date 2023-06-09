@@ -1,0 +1,19 @@
+{
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PPP",
+          "S S"
+        ],
+        "key": {
+          "P": {
+            "item": "stygian:endplanks"
+          },
+          "S": {
+            "item": "minecraft:stick"
+          }
+        },
+        "result": {
+          "item": "rusticcompat:table_wyrmwood",
+          "count": 2
+        }
+      }

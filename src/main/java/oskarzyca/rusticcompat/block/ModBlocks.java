@@ -115,6 +115,14 @@ public class ModBlocks {
     public static BlockChair CHAIR_PEACH;
     public static BlockTable TABLE_PEACH;
 
+    // Aether Legacy
+    public static BlockChair CHAIR_SKYROOT;
+    public static BlockTable TABLE_SKYROOT;
+
+    // Stygian End
+    public static BlockChair CHAIR_WYRMWOOD;
+    public static BlockTable TABLE_WYRMWOOD;
+
     public static void init() {
         if (Config.ENABLE_PAINTED_WOOD) {
             if (Config.ENABLE_CHAIRS) {
@@ -254,6 +262,23 @@ public class ModBlocks {
         }
         if (Config.ENABLE_TABLES){
             TABLE_PEACH = new BlockTable("peach");
+        }
+    }
+
+    public static void aetherInit(){
+        if(Config.ENABLE_CHAIRS){
+            CHAIR_SKYROOT = new BlockChair("skyroot");
+        }
+        if(Config.ENABLE_TABLES){
+            TABLE_SKYROOT = new BlockTable("skyroot");
+        }
+    }
+    public static void stygianInit(){
+        if(Config.ENABLE_CHAIRS){
+            CHAIR_WYRMWOOD = new BlockChair("wyrmwood");
+        }
+        if(Config.ENABLE_TABLES){
+            TABLE_WYRMWOOD = new BlockTable("wyrmwood");
         }
     }
     @SideOnly(Side.CLIENT)
@@ -404,6 +429,24 @@ public class ModBlocks {
         }
         if (Config.ENABLE_TABLES){
             TABLE_PEACH.initModel();
+        }
+    }
+    @SideOnly(Side.CLIENT)
+    public static void aetherInitModels(){
+        if (Config.ENABLE_CHAIRS){
+            CHAIR_SKYROOT.initModel();
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_SKYROOT.initModel();
+        }
+    }
+    @SideOnly(Side.CLIENT)
+    public static void stygianInitModels(){
+        if (Config.ENABLE_CHAIRS){
+            CHAIR_WYRMWOOD.initModel();
+        }
+        if (Config.ENABLE_TABLES){
+            TABLE_WYRMWOOD.initModel();
         }
     }
 

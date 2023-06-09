@@ -33,6 +33,12 @@ public class CommonProxy {
         if (Loader.isModLoaded("comfycozy")){
             ModBlocks.cozyInit();
         }
+        if (Loader.isModLoaded("aether_legacy")){
+            ModBlocks.aetherInit();
+        }
+        if (Loader.isModLoaded("stygian")){
+            ModBlocks.stygianInit();
+        }
     }
 
     public void init(FMLInitializationEvent event) {

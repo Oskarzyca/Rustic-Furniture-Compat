@@ -89,7 +89,7 @@ tile.rustic.chair_darkwood.name=Darkwood Chair
 tile.rustic.chair_mangrove.name=Mangrove Chair
 tile.rustic.chair_transwood.name=Transwood Chair
 tile.rustic.chair_sortingwood.name=Sortingwood Chair
-tile.rustic.chair_Minewood.name=Minewood Chair
+tile.rustic.chair_minewood.name=Minewood Chair
 
 tile.rustic.table_twilight_oak.name=Twilight Oak Table
 tile.rustic.table_canopy.name=Canopy Table
@@ -97,7 +97,7 @@ tile.rustic.table_darkwood.name=Darkwood Table
 tile.rustic.table_mangrove.name=Mangrove Table
 tile.rustic.table_transwood.name=Transwood Table
 tile.rustic.table_sortingwood.name=Sortingwood Table
-tile.rustic.table_Minewood.name=Minewood Table
+tile.rustic.table_minewood.name=Minewood Table
 
 #Immersive Engineering
 tile.rustic.chair_treated_wood.name=Treated Wood Chair
@@ -106,3 +106,11 @@ tile.rustic.table_treated_wood.name=Treated Wood Table
 #Comfy Cozy
 tile.rustic.chair_peach.name=Peach Chair
 tile.rustic.table_peach.name=Peach Table
+
+#Aether Legacy
+tile.rustic.chair_skyroot.name=Skyroot Chair
+tile.rustic.table_skyroot.name=Skyroot Table
+
+#Stygian End
+tile.rustic.chair_wyrmwood.name=Wyrmwood Chair
+tile.rustic.table_wyrmwood.name=Wyrmwood Table

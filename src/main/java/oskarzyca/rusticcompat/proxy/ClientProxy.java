@@ -30,5 +30,11 @@ public class ClientProxy extends CommonProxy {
         if (Loader.isModLoaded("comfycozy")){
             ModBlocks.cozyInitModels();
         }
+        if (Loader.isModLoaded("aether_legacy")){
+            ModBlocks.aetherInitModels();
+        }
+        if (Loader.isModLoaded("stygian")){
+            ModBlocks.stygianInitModels();
+        }
     }
 }
